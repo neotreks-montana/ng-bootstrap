@@ -39,7 +39,6 @@ let nextId = 0;
   encapsulation: ViewEncapsulation.None,
   host: {'[class]': '"tooltip show" + (tooltipClass ? " " + tooltipClass : "")', 'role': 'tooltip', '[id]': 'id'},
   template: `<div class="arrow"></div><div class="tooltip-inner"><ng-content></ng-content></div>`,
-  styleUrls: ['./tooltip.scss']
 })
 export class NgbTooltipWindow {
   @Input() id: string;

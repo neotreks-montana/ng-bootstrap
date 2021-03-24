@@ -18,7 +18,6 @@ import {NgbDateStruct} from './ngb-date-struct';
   selector: 'ngb-datepicker-month',
   host: {'role': 'grid', '(keydown)': 'onKeyDown($event)'},
   encapsulation: ViewEncapsulation.None,
-  styleUrls: ['./datepicker-month.scss'],
   template: `
     <div *ngIf="datepicker.showWeekdays" class="ngb-dp-week ngb-dp-weekdays" role="row">
       <div *ngIf="datepicker.showWeekNumbers" class="ngb-dp-weekday ngb-dp-showweek"></div>

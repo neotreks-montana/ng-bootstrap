@@ -45,7 +45,6 @@ let nextId = 0;
       <ng-template [ngTemplateOutlet]="isTitleTemplate() ? $any(title) : simpleTitle" [ngTemplateOutletContext]="context"></ng-template>
     </h3>
     <div class="popover-body"><ng-content></ng-content></div>`,
-  styleUrls: ['./popover.scss']
 })
 export class NgbPopoverWindow {
   @Input() title: undefined | string | TemplateRef<any>;

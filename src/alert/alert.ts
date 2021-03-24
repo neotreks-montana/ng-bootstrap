@@ -31,7 +31,6 @@ import {NgbAlertConfig} from './alert-config';
       <span aria-hidden="true">&times;</span>
     </button>
     `,
-  styleUrls: ['./alert.scss']
 })
 export class NgbAlert implements OnInit,
     OnChanges {

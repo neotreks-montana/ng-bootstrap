@@ -37,7 +37,6 @@ import {ModalDismissReasons} from './modal-dismiss-reasons';
     </div>
     `,
   encapsulation: ViewEncapsulation.None,
-  styleUrls: ['./modal.scss']
 })
 export class NgbModalWindow implements OnInit,
     AfterViewInit, OnDestroy {

@@ -58,7 +58,6 @@ export class NgbToastHeader {
       <ng-content></ng-content>
     </div>
   `,
-  styleUrls: ['./toast.scss']
 })
 export class NgbToast implements AfterContentInit,
     OnChanges {
