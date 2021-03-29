@@ -5,7 +5,7 @@ import {Component, Input, ViewEncapsulation} from '@angular/core';
   encapsulation: ViewEncapsulation.None,
   template: '',
   host:
-      {'[class]': '"modal-backdrop fade show" + (backdropClass ? " " + backdropClass : "")', 'style': 'z-index: 1050'}
+      {'[class]': '"modal-backdrop fade show" + (backdropClass ? " " + backdropClass : "")'}
 })
 export class NgbModalBackdrop {
   @Input() backdropClass: string;
